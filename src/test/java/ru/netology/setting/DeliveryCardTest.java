@@ -31,7 +31,7 @@ public class DeliveryCardTest {
         form.$("[data-test-id=date] input").sendKeys(Keys.CONTROL + "a", Keys.DELETE);
         form.$("[data-test-id=date] input").setValue(dateToEnter);
         form.$("[data-test-id=name] input").setValue("Иванов Анатолий");
-        form.$("[data-test-id=phone] input").setValue("+31961992949");
+        form.$("[data-test-id=phone] input").setValue("+32561992949");
 
 
         form.$("[data-test-id=agreement]").click();
@@ -53,7 +53,7 @@ public class DeliveryCardTest {
         form.$("[data-test-id=date] input").sendKeys(Keys.CONTROL + "a", Keys.DELETE);
         form.$("[data-test-id=date] input").setValue(dateToEnter);
         form.$("[data-test-id=name] input").setValue("Иванов Анатолий");
-        form.$("[data-test-id=phone] input").setValue("+31961992949");
+        form.$("[data-test-id=phone] input").setValue("+32561992949");
 
 
         form.$("[data-test-id=agreement]").click();
@@ -122,7 +122,7 @@ public class DeliveryCardTest {
         form.$("[data-test-id=date] input").sendKeys(Keys.CONTROL + "a", Keys.DELETE);
         form.$("[data-test-id=date] input").setValue("17.08.2020");
         form.$("[data-test-id=name] input").setValue("Иван Иванов");
-        form.$("[data-test-id=phone] input").setValue("123456");
+        form.$("[data-test-id=phone] input").setValue("0123456");
 
         form.$("[data-test-id=agreement]").click();
         form.$$("[role=button]").find(exactText("Запланировать")).click();
